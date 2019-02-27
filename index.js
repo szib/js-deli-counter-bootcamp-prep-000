@@ -4,6 +4,6 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-  return line.shift(line)
-  // return 
+  if (line.length === 0) return 'There is nobody waiting to be server!'
+  return line.shift()
 }
