@@ -14,5 +14,5 @@ function currentLine(line) {
   for (var i=0; i<line.length; i++) {
     s += `${i+1}. ${line[i]} `
   }
-  return trim(s)
+  return s.trim()
 }
